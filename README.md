@@ -3,6 +3,8 @@
 Eureka Server holds the information about all client-service applications, which is applications' port and IP address. Every application registers int the Eureka server.
 
 ## Description
+### Dependency
+- spring-cloud-starter-netflix-eureka-server
 
 ## Demo
 
