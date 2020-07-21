@@ -1,6 +1,6 @@
 # Spring Cloud Eureka Server Getting Started
 
-Overview
+Eureka Server holds the information about all client-service applications, which is applications' port and IP address. Every application registers int the Eureka server.
 
 ## Description
 
