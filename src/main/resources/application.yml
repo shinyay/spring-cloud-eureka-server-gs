@@ -1,2 +1,5 @@
+spring:
+  application:
+    name: eureka-discovery-service
 server:
   port: ${PORT:8761}
