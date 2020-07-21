@@ -6,6 +6,13 @@ Eureka Server holds the information about all client-service applications, which
 ### Dependency
 - spring-cloud-starter-netflix-eureka-server
 
+### Enable Spring Cloud Eureka Server
+```kotlin
+@SpringBootApplication
+@EnableEurekaServer
+class SpringCloudEurekaServerGsApplication
+```
+
 ## Demo
 
 ## Features
