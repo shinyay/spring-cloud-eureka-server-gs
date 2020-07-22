@@ -16,13 +16,16 @@ class SpringCloudEurekaServerGsApplication
 ### Eureka Configuration
 
 - eureka.client
-  - register-with-eureka
+  - `register-with-eureka`
     - Flag for registering its self to Eureka
+  - `fetch-registry`
+    - Flaf for fetching the Eureka registry
 
 |property|value|
 |--------|-----|
 |service-url.defaultZone|http://localhost:${server.port}/eureka|
 |register-with-eureka|false|
+|fetch-registry|false|
 
 ## Demo
 
