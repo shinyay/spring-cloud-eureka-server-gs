@@ -13,6 +13,14 @@ Eureka Server holds the information about all client-service applications, which
 class SpringCloudEurekaServerGsApplication
 ```
 
+### Eureka Configuration
+
+- eureka.client
+
+|property|value|
+|--------|-----|
+|service-url.defaultZone|http://localhost:${server.port}/eureka|
+
 ## Demo
 
 ## Features
